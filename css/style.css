@@ -1,0 +1,96 @@
+body{
+	width: 100vw;
+	height: 100vh;
+	margin: 0 auto;
+	background-color: #173054;
+	font-family: 'Titillium Web', sans-serif;
+}
+
+.header{
+	display: flex;
+	height:15%;
+}
+
+.header-box{
+	width: 100%;
+	padding-top:15px;
+	padding-left:5px;
+	height:100%;
+	background-color: #173054;
+	display: flex;
+	margin: 0 10px;
+	justify-content: space-around;
+}
+
+.header-box p{
+	font-size: 1.6vh;
+	font-weight: bold;
+	color: white;
+}
+
+.header-box2{
+	width: 100%;
+	padding-top:15px;
+	padding-left:5px;
+	height:100%;
+	background-color: #173054;
+	display: flex;
+	margin: 0 10px;
+	justify-content: space-around;
+}
+
+.header-box2 p{
+	font-size: 3vh;
+	font-weight: bold;
+	color: #ff8be8;
+}
+
+.design-container{
+	display: block;
+	height: 80%;
+}
+
+.title{
+	height: 30%;
+	width: 100%;
+	display: table;
+	position: relative;
+
+}
+
+.title h1{
+	margin: 0 auto;
+	position: absolute;
+	bottom: 0;
+	font-size: 14vmin;
+	color: #ff7e17;
+	margin-left: 1%;
+	font-family: 'Saira Stencil One', cursive;
+}
+
+.design{
+	background-color: #210731;
+	height: 65%;
+	width: 100%;
+	margin:50px;
+}
+
+@keyframes example{
+	0%{background-color: #ff7e17; left:0px; top:0px;}
+	25%{background-color: white; left: 1100px; top:0px;transform: scale(1.0);transform: rotate(180deg);}
+	100%{background-color: #ff7e17;left:0px; top:0px; transform: scale(1.0);}
+}
+
+
+#rect{
+	width: 300px;
+	height: 20px;
+	background-color: #ff7e17;
+	position: relative;
+	margin-bottom: 60px;
+	animation-name: example;
+	animation-duration: 1.8s;
+	animation-timing-function: ease-in;
+	animation-iteration-count: infinite;
+}
+
